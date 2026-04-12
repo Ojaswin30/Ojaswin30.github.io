@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ojaswin Aggarwal — AI & Data Freelancer</title>
+  <title>Ojaswin Aggarwal — AI & Data Engineer</title>
   <meta name="description" content="I help startups build AI pipelines, dashboards, and automation tools. Fast, practical, production-ready."/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -11,15 +11,15 @@
   <link rel="stylesheet" href="styles.css"/>
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Ojaswin Aggarwal — AI & Data Freelancer" />
+  <meta property="og:title" content="Ojaswin Aggarwal — AI & Data Engineer" />
   <meta property="og:description" content="I build AI & data tools that actually ship for startups. Power BI, ML pipelines, dashboards and web apps." />
   <meta property="og:image" content="https://ojaswin30.github.io/og-image.png" />
   <meta property="og:url" content="https://ojaswin30.github.io/" />
   <meta property="og:type" content="website" />
-  
+
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Ojaswin Aggarwal — AI & Data Freelancer" />
+  <meta name="twitter:title" content="Ojaswin Aggarwal — AI & Data Engineer" />
   <meta name="twitter:description" content="Power BI, ML pipelines, dashboards and web apps for startups." />
   <meta name="twitter:image" content="https://ojaswin30.github.io/og-image.png" />
 
@@ -34,7 +34,7 @@
     <li><a href="#services">Services</a></li>
     <li><a href="#work">Work</a></li>
     <li><a href="#about">About</a></li>
-    <li><a href="#contact" class="nav-hire">Hire Me</a></li>
+    <li><a href="#contact" class="nav-hire">Contact</a></li>
   </ul>
 </nav>
 
@@ -51,8 +51,8 @@
 
     <p class="hero-sub a3">
       Pipelines, dashboards, ML models, automations, web apps &mdash;
-      <strong>scoped fast, built clean, delivered to production.</strong>
-      Based in Noida. Working with clients worldwide.
+      <strong>scoped fast, built clean, shipped to production.</strong>
+      India-based. Working with clients worldwide.
     </p>
 
     <div class="hero-actions a4">
@@ -62,16 +62,16 @@
 
     <div class="hero-proof a5">
       <div>
-        <div class="proof-num">2<sup>x</sup></div>
-        <div class="proof-lbl">Internships delivered</div>
+        <div class="proof-num">3<sup>+</sup></div>
+        <div class="proof-lbl">Production systems shipped</div>
       </div>
       <div>
         <div class="proof-num">15<sup>+</sup></div>
-        <div class="proof-lbl">Projects shipped</div>
+        <div class="proof-lbl">Projects completed</div>
       </div>
       <div>
         <div class="proof-num">92<sup>%</sup></div>
-        <div class="proof-lbl">Production accuracy (FHIR pipeline)</div>
+        <div class="proof-lbl">Accuracy — FHIR pipeline</div>
       </div>
     </div>
 
@@ -79,9 +79,8 @@
       <div class="avail-dot"></div>
       <div>
         <div class="avail-text">Open to new projects</div>
-        <div class="avail-sub">Responds within 24 hours</div>
+        <div class="avail-sub">Remote-first &mdash; worldwide</div>
       </div>
-      <a href="#contact" class="avail-cta">Let&rsquo;s talk &#8594;</a>
     </div>
   </div>
 </section>
@@ -96,7 +95,7 @@
     </div>
     <div class="services-grid reveal">
 
-      <div class="svc">
+      <div class="svc" data-key="ai">
         <div class="svc-num">01</div>
         <div class="svc-name">AI &amp; ML Pipelines</div>
         <p class="svc-desc">Custom machine learning models and data pipelines built for your specific problem &mdash; from raw data to a working, production-ready system.</p>
@@ -106,10 +105,16 @@
           <div class="svc-item">Model evaluation, tuning &amp; deployment</div>
           <div class="svc-item">Healthcare AI, document intelligence, image analysis</div>
         </div>
-        <a href="#contact" class="svc-link">Get a quote &#8594;</a>
+        <button class="svc-link svc-expand-btn" aria-expanded="false">Learn more &#8595;</button>
+        <div class="svc-detail" hidden>
+          <p>My ML work covers the full lifecycle — from exploratory data analysis and feature engineering through to containerised model deployment. I've built production systems processing 700+ medical records with 92% accuracy (FHIR pipeline at Winniio), trained CNN models on 5,000 MRI images achieving 90% test accuracy, and built regression models hitting R²: 0.9998 for cancer biomarker prediction.</p>
+          <p>I work in Python-first stacks: TensorFlow/Keras for deep learning, Scikit-learn for classical ML, HuggingFace for NLP tasks. Deployment via Streamlit for internal tools, or containerised APIs for production integrations.</p>
+          <p><strong>Good fit for:</strong> healthcare data processing, document intelligence, image classification, predictive analytics for business metrics.</p>
+        </div>
+        <a href="#contact" class="svc-cta-link">Get a quote &#8599;</a>
       </div>
 
-      <div class="svc t">
+      <div class="svc t" data-key="bi">
         <div class="svc-num">02</div>
         <div class="svc-name">Dashboards &amp; Analytics</div>
         <p class="svc-desc">Turn your data into decisions. Interactive dashboards and BI reports your team can actually use without a data science degree.</p>
@@ -119,10 +124,16 @@
           <div class="svc-item">Azure data pipelines (Medallion architecture)</div>
           <div class="svc-item">Streamlit apps for internal analytics tools</div>
         </div>
-        <a href="#contact" class="svc-link">Get a quote &#8594;</a>
+        <button class="svc-link svc-expand-btn" aria-expanded="false">Learn more &#8595;</button>
+        <div class="svc-detail" hidden>
+          <p>I design dashboards around the decisions they need to drive, not just the data available. A good BI report should answer the question before the meeting even starts. I've built Power BI reports with complex DAX measures, field parameters, bookmark navigation, and row-level security for multi-region sales teams.</p>
+          <p>On the data side I build Medallion architecture pipelines on Azure (Bronze → Silver → Gold) using Azure Data Factory, Databricks notebooks, and Synapse Analytics — covering ingestion, cleansing, transformation, and serving layers.</p>
+          <p><strong>Good fit for:</strong> sales performance, operations tracking, financial reporting, internal tooling that currently lives in spreadsheets.</p>
+        </div>
+        <a href="#contact" class="svc-cta-link">Get a quote &#8599;</a>
       </div>
 
-      <div class="svc t">
+      <div class="svc t" data-key="auto">
         <div class="svc-num">03</div>
         <div class="svc-name">Automation &amp; Scripting</div>
         <p class="svc-desc">Cut the manual work. Scripts and automated workflows that save your team hours every week.</p>
@@ -130,12 +141,18 @@
           <div class="svc-item">ETL &mdash; extract, transform, load</div>
           <div class="svc-item">Document processing &mdash; OCR, PDF parsing, FHIR</div>
           <div class="svc-item">API integrations &amp; workflow automation</div>
-          <div class="svc-item">Salesforce CRM automation with Apex</div>
+          <div class="svc-item">Self-healing CI/CD pipelines via UiPath &amp; Azure DevOps</div>
         </div>
-        <a href="#contact" class="svc-link">Get a quote &#8594;</a>
+        <button class="svc-link svc-expand-btn" aria-expanded="false">Learn more &#8599;</button>
+        <div class="svc-detail" hidden>
+          <p>I'm currently building a self-healing CI/CD automation: when a build fails in Azure DevOps, a UiPath bot triggers, analyses the error logs, and — for non-complex failures — patches the code and re-runs the pipeline automatically. This is the kind of automation that compounds in value over time.</p>
+          <p>Beyond DevOps, I build document processing pipelines (OCR + NLP extraction from PDFs, medical records, invoices), REST API integration workflows, and Python scripting for repetitive data operations.</p>
+          <p><strong>Good fit for:</strong> recurring data tasks, document-heavy workflows, teams spending engineering time on things that should run themselves.</p>
+        </div>
+        <a href="#contact" class="svc-cta-link">Get a quote &#8599;</a>
       </div>
 
-      <div class="svc">
+      <div class="svc" data-key="web">
         <div class="svc-num">04</div>
         <div class="svc-name">Web Apps &amp; Interfaces</div>
         <p class="svc-desc">Clean, functional web applications &mdash; whether it&rsquo;s a product MVP, an internal tool, or a data-connected frontend.</p>
@@ -145,7 +162,13 @@
           <div class="svc-item">Portfolio &amp; landing page sites</div>
           <div class="svc-item">Angular &amp; TypeScript applications</div>
         </div>
-        <a href="#contact" class="svc-link">Get a quote &#8594;</a>
+        <button class="svc-link svc-expand-btn" aria-expanded="false">Learn more &#8599;</button>
+        <div class="svc-detail" hidden>
+          <p>I build web frontends that connect to real data — not just static mockups. My multimodal product search interface (React + Vite, deployed on Azure Static Apps) demonstrates combining a clean UI with complex backend AI pipelines. I also build Streamlit apps for ML model interfaces, Power Apps Canvas solutions for internal workflows, and Angular applications.</p>
+          <p>I'm comfortable owning the full stack for smaller projects: frontend, API layer, database, deployment. For larger projects I integrate cleanly into existing teams and codebases.</p>
+          <p><strong>Good fit for:</strong> MVPs that need to connect to AI or data backends, internal tooling, dashboards that outgrew spreadsheets, data-visualisation interfaces.</p>
+        </div>
+        <a href="#contact" class="svc-cta-link">Get a quote &#8599;</a>
       </div>
 
     </div>
@@ -195,88 +218,137 @@
     </div>
     <div class="work-grid reveal">
 
-      <a href="https://github.com/Ojaswin30/pdf-to-fhir-pipeline" class="wcard">
-        <div class="wcard-cat">Healthcare Automation</div>
+      <!-- 1. PDF to FHIR -->
+      <a href="https://github.com/Ojaswin30/pdf-to-fhir-pipeline" target="_blank" rel="noopener" class="wcard">
+        <div class="wcard-cat">Healthcare Automation &middot; Internship @ Winniio</div>
         <div class="wcard-top">
           <div class="wcard-title">Medical PDF-to-FHIR Pipeline</div>
           <div class="wcard-arrow">&#8599;</div>
         </div>
         <div class="wcard-result">92% accuracy &middot; 700+ records shipped</div>
-        <p class="wcard-desc">End-to-end OCR + NLP pipeline converting raw medical documents to FHIR-compliant JSON. Delivered at Winniio and released as their flagship product.</p>
+        <p class="wcard-desc">End-to-end OCR + NLP pipeline converting raw medical PDFs to FHIR-compliant JSON. Built during my internship at Winniio and released as their flagship data product. Fully offline processing with no PHI leakage.</p>
         <div class="wcard-stack">
           <span class="stag">Python</span><span class="stag">OCR / NLP</span>
           <span class="stag">FHIR</span><span class="stag">Streamlit</span>
         </div>
+        <div class="wcard-links">
+          <span class="wcard-lnk">GitHub &#8599;</span>
+        </div>
       </a>
 
-      <div class="wcard tg">
-        <div class="wcard-cat">Data Engineering</div>
-        <div class="wcard-top">
-          <div class="wcard-title">Azure ETL Pipeline &mdash; Medallion Architecture</div>
-          <div class="wcard-arrow">&#8599;</div>
-        </div>
-        <div class="wcard-result">35% reporting efficiency gain</div>
-        <p class="wcard-desc">Event-triggered Bronze&ndash;Silver&ndash;Gold ETL pipeline on Azure. Raw SQL data transformed into analytics-ready datasets with automated cleansing.</p>
-        <div class="wcard-stack">
-          <span class="stag">Azure Data Factory</span><span class="stag">Databricks</span>
-          <span class="stag">Synapse Analytics</span>
-        </div>
-      </div>
-
-      <div class="wcard tg">
-        <div class="wcard-cat">Business Intelligence</div>
-        <div class="wcard-top">
-          <div class="wcard-title">Sales Analytics Dashboard &mdash; Power BI</div>
-          <div class="wcard-arrow">&#8599;</div>
-        </div>
-        <div class="wcard-result">40% reduction in manual reporting</div>
-        <p class="wcard-desc">Interactive Power BI dashboard with dynamic KPIs, slicers, bookmarks, and field parameters. Delivered actionable insights across regions and managers.</p>
-        <div class="wcard-stack">
-          <span class="stag">Power BI</span><span class="stag">DAX</span>
-          <span class="stag">Data Modeling</span>
-        </div>
-      </div>
-
-      <a href="https://brain-tumor-detector-g7hzfamjbfsr7hvg6osx2m.streamlit.app" class="wcard tc">
-        <div class="wcard-cat">Medical AI</div>
+      <!-- 2. Brain Tumor Detector -->
+      <a href="https://brain-tumor-detector-g7hzfamjbfsr7hvg6osx2m.streamlit.app" target="_blank" rel="noopener" class="wcard tg">
+        <div class="wcard-cat">Medical AI &middot; Research @ OHSL</div>
         <div class="wcard-top">
           <div class="wcard-title">Brain Tumor Detector &mdash; CNN on MRI Scans</div>
           <div class="wcard-arrow">&#8599;</div>
         </div>
-        <div class="wcard-result">90% test accuracy &middot; 5,000 images</div>
-        <p class="wcard-desc">CNN-based MRI classification using transfer learning. Training time cut 40% while maintaining accuracy. Includes a CLI for real-time predictions.</p>
+        <div class="wcard-result">90% test accuracy &middot; 5,000 MRI images</div>
+        <p class="wcard-desc">CNN-based MRI classifier using transfer learning. Training time cut 40% while maintaining accuracy. Built independently during research at OHSL, with initial concept from a hackathon. Deployed live on Streamlit.</p>
         <div class="wcard-stack">
           <span class="stag">TensorFlow</span><span class="stag">Keras</span>
           <span class="stag">OpenCV</span><span class="stag">Python</span>
         </div>
+        <div class="wcard-links">
+          <span class="wcard-lnk">Live demo &#8599;</span>
+        </div>
       </a>
 
-      <a href="https://github.com/ojaswinaggarwal-oss/smart-shopping-search" class="wcard">
-        <div class="wcard-cat">Web App &middot; Multimodal AI</div>
+      <!-- 3. Multimodal Product Recommender -->
+      <a href="https://wonderful-mushroom-06330c100.4.azurestaticapps.net" target="_blank" rel="noopener" class="wcard tc">
+        <div class="wcard-cat">Web App &middot; Multimodal AI &middot; Major Project</div>
         <div class="wcard-top">
-          <div class="wcard-title">Multimodal Product Recommender</div>
+          <div class="wcard-title">Multimodal Product Search &amp; Recommender</div>
           <div class="wcard-arrow">&#8599;</div>
         </div>
-        <div class="wcard-result">Text + image search combined</div>
-        <p class="wcard-desc">Cloud-ready React + Vite frontend for product discovery using combined text and image queries. Context-aware recommendations with dynamic results.</p>
+        <div class="wcard-result">Text + image queries &middot; 85,241 products &middot; Live on Azure</div>
+        <p class="wcard-desc">React + Vite frontend for product discovery using combined text and image queries across 85,241 Amazon products. Three-pipeline system: Symbolic Early Fusion, Static Late Fusion, Intent-Aware Dynamic Fusion. Evaluated on 1,500 queries across 6 categories.</p>
         <div class="wcard-stack">
           <span class="stag">React + Vite</span><span class="stag">Multimodal AI</span>
-          <span class="stag">Python</span>
+          <span class="stag">Python</span><span class="stag">Azure Static Apps</span>
+        </div>
+        <div class="wcard-links">
+          <span class="wcard-lnk">Live site &#8599;</span>
+          <span class="wcard-lnk-sep">&middot;</span>
+          <span class="wcard-lnk">GitHub &#8599;</span>
         </div>
       </a>
 
-      <a href="https://github.com/Ojaswin30/whatsnext-salesforce-crm" class="wcard tc">
-        <div class="wcard-cat">CRM Automation</div>
+      <!-- 4. Salesforce CRM -->
+      <div class="wcard">
+        <div class="wcard-cat">CRM Automation &middot; Salesforce</div>
         <div class="wcard-top">
           <div class="wcard-title">Salesforce CRM &mdash; WhatsNext Motors</div>
-          <div class="wcard-arrow">&#8599;</div>
+          <div class="wcard-arrow" style="opacity:0.3">&#8599;</div>
         </div>
-        <div class="wcard-result">Fully automated order workflows</div>
-        <p class="wcard-desc">Order management, stock tracking, and dealer assignment automated for a vehicle dealership using Salesforce Apex and custom CRM workflows.</p>
+        <div class="wcard-result">Fully automated order &amp; dealer workflows</div>
+        <p class="wcard-desc">Order management, stock tracking, and dealer assignment automated for a vehicle dealership using Salesforce Apex and custom CRM workflows. Full documentation and working demo in repo.</p>
         <div class="wcard-stack">
           <span class="stag">Salesforce</span><span class="stag">Apex</span><span class="stag">CRM</span>
         </div>
-      </a>
+        <div class="wcard-links">
+          <a href="https://github.com/Ojaswin30/whatsnext-salesforce-crm" target="_blank" rel="noopener" class="wcard-lnk">GitHub + docs &#8599;</a>
+          <span class="wcard-lnk-sep">&middot;</span>
+          <a href="https://www.salesforce.com/trailblazer/xn8y75ahemczksnv9a" target="_blank" rel="noopener" class="wcard-lnk">Trailblazer profile &#8599;</a>
+        </div>
+      </div>
+
+      <!-- 5. Power BI Sales Dashboard -->
+      <div class="wcard tg">
+        <div class="wcard-cat">Business Intelligence &middot; Power BI</div>
+        <div class="wcard-top">
+          <div class="wcard-title">Sales Analytics Dashboard &mdash; Power BI</div>
+          <div class="wcard-arrow" style="opacity:0.3">&#8599;</div>
+        </div>
+        <div class="wcard-result">40% reduction in manual reporting</div>
+        <p class="wcard-desc">Interactive Power BI report with dynamic KPIs, slicers, bookmarks, field parameters, and row-level security for multi-region sales data. Report available to view on request — no public publish link without Fabric.</p>
+        <div class="wcard-stack">
+          <span class="stag">Power BI</span><span class="stag">DAX</span>
+          <span class="stag">Data Modeling</span>
+        </div>
+        <div class="wcard-links">
+          <a href="mailto:aggarwalojaswin3@gmail.com?subject=Power BI Dashboard — view request" class="wcard-lnk">Request to view &#8594;</a>
+        </div>
+      </div>
+
+      <!-- 6. Azure ETL Pipeline -->
+      <div class="wcard tc">
+        <div class="wcard-cat">Data Engineering &middot; Azure</div>
+        <div class="wcard-top">
+          <div class="wcard-title">Azure ETL Pipeline &mdash; Medallion Architecture</div>
+          <div class="wcard-arrow" style="opacity:0.3">&#8599;</div>
+        </div>
+        <div class="wcard-result">35% reporting efficiency gain</div>
+        <p class="wcard-desc">Event-triggered Bronze&ndash;Silver&ndash;Gold pipeline on Azure. Raw SQL data transformed into analytics-ready datasets with automated cleansing via Data Factory, Databricks, and Synapse. Screenshots &amp; architecture doc available.</p>
+        <div class="wcard-stack">
+          <span class="stag">Azure Data Factory</span><span class="stag">Databricks</span>
+          <span class="stag">Synapse Analytics</span>
+        </div>
+        <div class="wcard-links">
+          <a href="mailto:aggarwalojaswin3@gmail.com?subject=Azure ETL Pipeline — documentation request" class="wcard-lnk">Request docs &#8594;</a>
+        </div>
+      </div>
+
+      <!-- 7. Azure DevOps Self-Healing Automation — WIP -->
+      <div class="wcard wcard-wip">
+        <div class="wcard-cat">
+          DevOps Automation &middot; UiPath &middot;
+          <span class="wip-badge">In progress</span>
+        </div>
+        <div class="wcard-top">
+          <div class="wcard-title">Self-Healing CI/CD &mdash; Azure DevOps + UiPath</div>
+          <div class="wcard-arrow" style="opacity:0.3">&#8599;</div>
+        </div>
+        <div class="wcard-result">Automated build-failure diagnosis &amp; repair</div>
+        <p class="wcard-desc">When a build fails in Azure DevOps, a UiPath automation triggers, reads the error logs, identifies the root cause, and — for non-complex failures — patches the code and re-runs the pipeline without human intervention. Pipelines and notebooks running in Azure Synapse. Deployed as an Azure Static App.</p>
+        <div class="wcard-stack">
+          <span class="stag">UiPath</span><span class="stag">Azure DevOps</span>
+          <span class="stag">Azure Synapse</span><span class="stag">Python</span>
+        </div>
+        <div class="wcard-links">
+          <span class="wcard-lnk wcard-lnk--muted">Repo coming soon</span>
+        </div>
+      </div>
 
     </div>
   </div>
@@ -322,16 +394,16 @@
         <div class="stack-cat-label">Databases &amp; DevOps</div>
         <div class="stack-pills">
           <span class="spill">SQL</span><span class="spill">Git / GitHub</span>
-          <span class="spill">Linux</span><span class="spill">FHIR Standards</span>
-          <span class="spill">OCR Pipelines</span><span class="spill">REST APIs</span>
+          <span class="spill">Azure DevOps</span><span class="spill">Linux</span>
+          <span class="spill">FHIR Standards</span><span class="spill">REST APIs</span>
         </div>
       </div>
       <div class="stack-cat">
-        <div class="stack-cat-label">CRM &amp; Low-Code</div>
+        <div class="stack-cat-label">CRM, Automation &amp; Low-Code</div>
         <div class="stack-pills">
           <span class="spill">Salesforce CRM</span><span class="spill">Apex</span>
+          <span class="spill">UiPath RPA</span>
           <span class="spill">Power Apps Canvas</span><span class="spill">Power Apps Model-Driven</span>
-          <span class="spill">Flutter</span>
         </div>
       </div>
       <div class="stack-cat">
@@ -357,22 +429,21 @@
     <div class="about-grid">
       <div class="about-body reveal">
         <p>
-          I&rsquo;m <strong>Ojaswin Aggarwal</strong> &mdash; a final-year CSE student with Honours in AI/ML
-          at Amity University, Noida, graduating in 2026. I&rsquo;ve been building real
-          software since my second year, not just coursework.
+          I&rsquo;m <strong>Ojaswin Aggarwal</strong> &mdash; a software engineer with a specialisation
+          in AI/ML, based in India. I&rsquo;ve been building real software since my second year of
+          university, not just coursework.
         </p>
         <p>
-          At <strong>Winniio</strong> I built a medical data pipeline that shipped to production with 92% accuracy across 700+ records.
-          At <strong>OHSL</strong> I trained cancer prediction models hitting R&sup2;: 0.9998.
-          These are delivered, working systems &mdash; not experiments.
+          At <strong>Winniio</strong> I built a medical data pipeline that shipped to production
+          with 92% accuracy across 700+ records. At <strong>OHSL</strong> I trained cancer prediction
+          models hitting R&sup2;: 0.9998. These are delivered, working systems &mdash; not experiments.
         </p>
         <p>
-          I work well with founders who need someone who can <strong>think through a problem end-to-end</strong>
-          and execute without hand-holding. I write clean code, communicate proactively,
-          and don&rsquo;t disappear mid-project.
+          I pick up problems end-to-end: from messy raw data to a running, documented product.
+          I write clean code, keep stakeholders in the loop, and don&rsquo;t go quiet mid-project.
         </p>
         <div class="cred-list">
-          <div class="cred"><div class="cred-dot"></div>CGPA 8.56 &mdash; Amity University</div>
+          <div class="cred"><div class="cred-dot"></div>CGPA 8.56 &mdash; Amity University, CSE with AI/ML Honours</div>
           <div class="cred"><div class="cred-dot"></div>NPTEL Python for Data Science &mdash; Top 5%</div>
           <div class="cred"><div class="cred-dot"></div>Cisco CCNA &mdash; 99.20% score</div>
           <div class="cred"><div class="cred-dot"></div>NPTEL Software Design &mdash; ELITE (87%)</div>
@@ -400,15 +471,19 @@
           </div>
         </div>
         <div class="aside-links">
-          <a href="https://github.com/Ojaswin30" target="_blank" class="aside-lnk">
+          <a href="https://github.com/Ojaswin30" target="_blank" rel="noopener" class="aside-lnk">
             <div><span class="aside-lnk-lbl">GitHub</span>github.com/Ojaswin30</div>
             <span>&#8599;</span>
           </a>
-          <a href="https://www.linkedin.com/in/ojaswin-aggarwal/" target="_blank" class="aside-lnk">
+          <a href="https://www.linkedin.com/in/ojaswin-aggarwal/" target="_blank" rel="noopener" class="aside-lnk">
             <div><span class="aside-lnk-lbl">LinkedIn</span>linkedin.com/in/ojaswin-aggarwal</div>
             <span>&#8599;</span>
           </a>
-          <a href="https://leetcode.com/u/ojaswinaggarwal__/" target="_blank" class="aside-lnk">
+          <a href="https://www.salesforce.com/trailblazer/xn8y75ahemczksnv9a" target="_blank" rel="noopener" class="aside-lnk">
+            <div><span class="aside-lnk-lbl">Salesforce Trailblazer</span>trailblazer/xn8y75ahemczksnv9a</div>
+            <span>&#8599;</span>
+          </a>
+          <a href="https://leetcode.com/u/ojaswinaggarwal__/" target="_blank" rel="noopener" class="aside-lnk">
             <div><span class="aside-lnk-lbl">LeetCode</span>ojaswinaggarwal__</div>
             <span>&#8599;</span>
           </a>
@@ -430,18 +505,18 @@
       <a href="mailto:aggarwalojaswin3@gmail.com" class="ci">
         <div>
           <div class="ci-label">Email &mdash; fastest response</div>
-          <div class="ci-val">ojaswinaggarwal3@gmail.com</div>
+          <div class="ci-val">aggarwalojaswin3@gmail.com</div>
         </div>
         <div class="ci-arrow">&#8599;</div>
       </a>
-      <a href="https://www.linkedin.com/in/ojaswin-aggarwal/" target="_blank" class="ci">
+      <a href="https://www.linkedin.com/in/ojaswin-aggarwal/" target="_blank" rel="noopener" class="ci">
         <div>
           <div class="ci-label">LinkedIn</div>
           <div class="ci-val">linkedin.com/in/ojaswin-aggarwal</div>
         </div>
         <div class="ci-arrow">&#8599;</div>
       </a>
-      <a href="https://github.com/Ojaswin30" target="_blank" class="ci">
+      <a href="https://github.com/Ojaswin30" target="_blank" rel="noopener" class="ci">
         <div>
           <div class="ci-label">GitHub</div>
           <div class="ci-val">github.com/Ojaswin30</div>
@@ -454,10 +529,9 @@
 
 <footer>
   <span>Ojaswin Aggarwal &copy; 2026</span>
-  <span>Noida, India &mdash; Working with clients worldwide</span>
+  <span>India &mdash; Remote-first, worldwide</span>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
