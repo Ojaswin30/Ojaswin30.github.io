@@ -54,12 +54,12 @@ export const projectsData = [
     id: 'multimodal-search',
     cat: 'Web App · Multimodal AI · Major Project',
     title: 'Multimodal Product Search & Recommender',
-    result: 'Text + image queries · 85,241 products · Live on Azure',
+    result: 'Text + image queries · 85,241 products',
     desc: 'React + Vite frontend for product discovery using combined text and image queries across 85,241 Amazon products. Three-pipeline system: Symbolic Early Fusion, Static Late Fusion, Intent-Aware Dynamic Fusion. Evaluated on 1,500 queries across 6 categories.',
-    stack: ['React + Vite', 'Multimodal AI', 'Python', 'Azure Static Apps'],
+    stack: ['React + Vite', 'Multimodal AI', 'Python', 'Vector Search'],
     theme: '',
     links: [
-      { label: 'Live site ↗', url: 'https://wonderful-mushroom-06330c100.4.azurestaticapps.net', external: true },
+      { label: 'Demo redeploying soon', url: '#', disabled: true },
       { label: 'GitHub ↗', url: 'https://github.com/Ojaswin30/Product-Recommender', external: true }
     ]
   },
